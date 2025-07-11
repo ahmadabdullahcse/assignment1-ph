@@ -40,8 +40,8 @@ nav ul a{
     font-size: 34;
 }
 
-.header{
-    background-image: url(/images/Hero-bg.png);
+header{
+    background-image: url(images/Hero-bg.png);
     height: 100%;
     width: 100%;
     background-position: top;
@@ -60,7 +60,16 @@ nav ul a{
     justify-content: space-between;
     margin: 120px 150px;
 }
-
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+.action-sub{
+    font-size: 24px;
+    color: #252432;
+    opacity: 50%;
+    max-width: 65%;
+}
 .wc-mini{
     border: none;
     border-radius: 20px;
