@@ -108,3 +108,24 @@ header{
     counter-reset: #000000;
     opacity: 50%;
 }
+
+.touch{
+    margin: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+.touch-title{
+    font-weight: bold;
+    font-size: 97px;
+    width: 50%;
+}
+
+}
+.form-touch *{
+    display: block;
+    margin-bottom: 10px;
+}
+.form-touch label{
+    font-size: 18;
+}
