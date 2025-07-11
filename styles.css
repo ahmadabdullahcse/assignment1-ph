@@ -41,7 +41,7 @@ nav ul a{
 }
 
 .header{
-    background-image: url(/Assets/Hero-bg.png);
+    background-image: url(/images/Hero-bg.png);
     height: 100%;
     width: 100%;
     background-position: top;
@@ -53,4 +53,16 @@ nav ul a{
 .banner-title{
     font-size: 65px;
     font-weight: bold;
+}
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 150px;
+}
+
+.wc-mini{
+    border: none;
+    border-radius: 20px;
+
 }
