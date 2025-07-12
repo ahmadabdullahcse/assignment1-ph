@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #F5F8FF;
 }
 .raleway-normal{
   font-family: "Raleway", sans-serif;
@@ -107,6 +108,68 @@ header{
     font-size: 20px;
     counter-reset: #000000;
     opacity: 50%;
+}
+
+.challange{
+    align-items: center;
+    margin: 50px 150px;
+}
+.challange-container{
+    display: flex;
+    gap: 30px;
+}
+.challange-card{
+    background-color: #FFFFFF;
+    padding: 50px 50px;
+    border-radius: 5px;
+}
+.challange-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+}
+.card-title{
+    font-size: 24px;
+    max-height: 120px;
+}
+.card-sub{
+    font-size: 16px;
+    max-height: 140px;
+}
+.mini-title{
+    color: #757575;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px;
+}
+.mini-sub{
+    font-size: 16px;
+    color: #b3b3b3;
+    margin: 0px;
+}
+
+
+.star{
+    height: 24px;
+    width: 120px;
+    background-image: url(images/icon-star.png);
+    background-repeat: repeat-x;
+    background-size: 24px 24px;
+    margin: 0 auto;
+}
+.avatar{
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+}
+.mini-container{
+    display: flex;
+    margin: 0px;
+    gap: 20px;
+
+}
+.mini-card{
+    height: 40px;
 }
 
 .focus{
