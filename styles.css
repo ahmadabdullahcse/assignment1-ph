@@ -109,6 +109,27 @@ header{
     opacity: 50%;
 }
 
+.focus{
+    align-items: center;
+    margin: 150px;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.focus-title{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.focus-sub{
+    color: rgba(0,0,0,0.5);
+}
+
+.focus-img{
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
 .touch{
     margin: 50px 150px;
     display: flex;
